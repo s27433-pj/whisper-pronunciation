@@ -1,11 +1,11 @@
 # Whisper Pronunciation Trainer 🎙️
 
-Prosta aplikacja open source do:
+Prosta aplikacja do:
 - nagrywania wypowiedzi po angielsku,
 - porównania ich z zadanym zdaniem,
 - oceny **słów** i **akcentu** z wykorzystaniem Whisper.
 
-## 🔧 Technologie
+##  Technologie
 
 - Backend: **Python 3.12**, FastAPI, Whisper (`medium.en`)
 - Frontend: **React + Vite**
