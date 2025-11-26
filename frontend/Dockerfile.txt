@@ -1,0 +1,16 @@
+FROM node:20-alpine
+
+WORKDIR /app
+
+# Najpierw package.json, żeby cache na npm install działał
+COPY package*.json ./
+
+RUN npm install
+
+# Potem reszta frontu
+COPY . .
+
+EXPOSE 5173
+
+# Vite dev server – host 0.0.0.0, żeby z zewnątrz było widać
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0", "--port", "5173"]

@@ -1,0 +1,161 @@
+/* === GLOBAL === */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background: #0f172a;
+  color: #e5e7eb;
+  font-family: system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* === APP WRAPPER === */
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  background: #0f172a;
+}
+
+.app-card {
+  width: 100%;
+  max-width: 800px;
+  background: #020617;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  border: 1px solid #1f2937;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+/* === HEADERS === */
+
+.app-title {
+  font-size: 1.7rem;
+  margin-bottom: 0.5rem;
+}
+
+.app-subtitle {
+  margin-bottom: 1.5rem;
+  color: #9ca3af;
+}
+
+/* === FORM === */
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.input-file,
+.select-input {
+  width: 100%;
+  padding: 0.4rem;
+  background: #020617;
+  border-radius: 0.5rem;
+  border: 1px solid #374151;
+  color: #e5e7eb;
+}
+
+.options-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.error-box {
+  margin-bottom: 1rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  background: #7f1d1d;
+  color: #fecaca;
+  font-size: 0.9rem;
+}
+
+.btn-submit {
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  border: none;
+  background: #2563eb;
+  color: #e5e7eb;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.15s ease;
+}
+
+.btn-submit:hover {
+  background: #1d4ed8;
+}
+
+.btn-submit:disabled {
+  background: #4b5563;
+  cursor: wait;
+}
+
+/* === RESULT BOX === */
+
+.result-box {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #1f2937;
+}
+
+.result-title {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.result-meta {
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
+
+.result-textarea {
+  width: 100%;
+  min-height: 150px;
+  padding: 0.6rem;
+  background: #020617;
+  border-radius: 0.5rem;
+  border: 1px solid #374151;
+  color: #e5e7eb;
+  resize: vertical;
+}
+
+/* === SEGMENTS LIST === */
+
+.segment-list {
+  margin-top: 1rem;
+}
+
+.segment-box {
+  max-height: 200px;
+  overflow-y: auto;
+  border-radius: 0.5rem;
+  border: 1px solid #374151;
+  background: #020617;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.segment-item {
+  padding: 0.4rem 0.2rem;
+  border-bottom: 1px solid #111827;
+}
+
+.segment-item:last-child {
+  border-bottom: none;
+}
+
+.segment-time {
+  color: #9ca3af;
+  margin-bottom: 0.2rem;
+}
