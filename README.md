@@ -23,7 +23,7 @@ Wymagania:
 - zainstalowany `ffmpeg` (na Windows np. przez `choco install ffmpeg`)
 
 ```bash
-git clone [https://github.com/<twoje-github>/whisper-pronunciation.git](https://github.com/s27433-pj/whisper-pronunciation.git)
+git clone https://github.com/s27433-pj/whisper-pronunciation.git
 cd whisper-pronunciation/backend
 
 python -m venv venv
