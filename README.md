@@ -1,4 +1,4 @@
-# Whisper Pronunciation Trainer 🎙️
+# Whisper Pronunciation Trainer
 
 Prosta aplikacja do:
 - nagrywania wypowiedzi po angielsku,
